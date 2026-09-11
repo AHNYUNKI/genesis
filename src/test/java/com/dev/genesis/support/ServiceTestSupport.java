@@ -1,15 +1,10 @@
-package com.dev.genesis;
+package com.dev.genesis.support;
 
-import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.ActiveProfiles;
 
 @SpringBootTest
 @ActiveProfiles("test")
-class GenesisApplicationTests {
-
-    @Test
-    void contextLoads() {
-    }
+public abstract class ServiceTestSupport {
 
 }
